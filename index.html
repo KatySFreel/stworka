@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stworka</title>
+    <!-- favicon -->
+    <link rel="icon" href="https://stworka.com/favicon.svg" type="image/svg+xml">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Inter:regular,500,600" rel="stylesheet" />
+
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="check-list">
+      <div class="check-list__wrapper">
+        <div class="check-list__progress progress" style="--progress: 0.035;">
+          <svg class="progress__circle" width="60" height="60" viewBox="0 0 60 60">
+            <circle class="progress__background" cx="30" cy="30" r="30" />
+
+            <circle class="progress__value" cx="30" cy="30" r="30" />
+          </svg>
+
+          <span class="progress__text">
+            0/7
+          </span>
+        </div>      
+
+        <div class="check-list__content">
+          <span class="check-list__tag">
+            Чеклист
+          </span>
+
+          <h1 class="check-list__title">
+            Выполнено: 0 из 7 действий
+          </h1>
+
+          <p class="check-list__text">
+            Следующее действие: Созвониться с клиентом до 23.05.24 12:00
+          </p>
+        </div>
+
+        <button type="button" class="check-list__btn btn">
+          Открыть чеклист
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
